@@ -142,7 +142,7 @@ def search_api(word, current_user)
         top_rated_entry = ary_data
       end 
     end
-    binding.pry
+
     your_definition = top_rated_entry["definition"]
     your_word = top_rated_entry["word"]
     your_example = top_rated_entry["example"]
